@@ -14,4 +14,9 @@ public class FilmTahminiUstunBy {
       kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
       kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
      */
+
+    public static void main(String[] args) {
+
+    }
+
 }
