@@ -1,6 +1,6 @@
 package proje;
 
-public class Atm {
+public class AtmOsmanBey {
    /*      ATM
         Kullaniciya giriş için kart numarasi ve şifresini isteyin, eger herhangi birini yanlis girerse tekrar isteyin.
         Kart numarasi aralarda boşluk ile girerse de eger doğruysa kabul edin.

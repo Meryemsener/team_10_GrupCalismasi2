@@ -1,6 +1,6 @@
 package proje;
 
-public class MarketSorusu {
+public class MarketSorusu_CengizBey {
     /*/* Basarili Market alış-veriş programı.
 		 *
 		 * 1. Adım: Ürünler ve fiyatları içeren listeleri oluşturunuz.
