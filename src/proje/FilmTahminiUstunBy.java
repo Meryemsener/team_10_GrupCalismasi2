@@ -1,6 +1,11 @@
 package proje;
 
-public class FilmTahminiUstunBy {
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+   public class FilmTahminiUstunBy {
+
     /*
      TASK :
       yukarıdaki film listinde bulunan filmlerden herhangi birisini kullanıcının film ismini  görmeden
@@ -17,6 +22,32 @@ public class FilmTahminiUstunBy {
 
     public static void main(String[] args) {
 
-    }
+        Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
 
+        System.out.print("*****FILM TAHMINI OYUNUNA HOSGELDINIZ******");
+
+        System.out.println("\nFilm tahimi icin bir harf yaziniz : ");
+
+        String kelime= scan.nextLine();// degisken isminde kelime ekledim scanner referansindan
+
+        //Dongu olusturam surekli dongumuz olmasi icin int deger atiyacam
+        int i, tahmin =0, anahtar=0, dogru=0;// int turunden tanim yaptim hespini bir satirda yaptim
+
+        //Dizi olusturacam String turunden
+        String bulunan[]=new String[kelime.length()];//kelime indexini bulmak icin parametre icine yazdim
+
+        System.out.println("Kelimeyi bulmak icin 5 yanlis hakkiniz var");//kullanicin kac hakkini oldugunu gosterdim
+
+        //googleden arastirdim BufferedReader klavye turunden bir degisken yani klavyden okunanlari icin
+        BufferedReader klavye =new BufferedReader(new InputStreamReader(System.in));//kutuphanedeki siniflar gibi dusundum
+
+
+    }
 }
+
+
+
+
+
+
+
