@@ -1,6 +1,7 @@
 package proje;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
@@ -19,8 +20,9 @@ import java.util.Scanner;
       kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
       kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
      */
+       // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
 
-    public static void main(String[] args) {
+       public static void main(String[] args) throws IOException {
 
         Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
 
@@ -41,6 +43,35 @@ import java.util.Scanner;
         //googleden arastirdim BufferedReader klavye turunden bir degisken yani klavyden okunanlari icin
         BufferedReader klavye =new BufferedReader(new InputStreamReader(System.in));//kutuphanedeki siniflar gibi dusundum
 
+
+        //For dongumu aciyorum asagida
+
+        for (i =0; i<kelime.length(); i++){// kelimenin uzunlugunu bulmak icin bide i++ artitani kullandim
+            bulunan [i]="_ ";// i sirasiyla artiracgi icin buda "_ " kelimemin uzunluguna kadar alt tire girecek
+
+        }
+
+        //Bir while olusturacam
+
+        while (tahmin<=5){ //tahmin sayisini bulmak icin
+
+            System.out.println("Bir harf giriniz (Kalan hakkiniz " + (5- tahmin)+ ") :");
+            tahmin++;
+            String harf= klavye.readLine();//yazilan harfleri daha kolay getirmek icin
+
+            for ( i= 0; i <kelime.length(); i++) {//olur veya olmaz dongusune soktum
+
+                if (kelime.charAt(i)==harf.charAt(0)){// burda kelimenin uyup uymadigini bakiyorum harf olarak
+                    bulunan[i]= harf + " ";// dizi oldugu icin ayni zaman degiskendir
+
+
+                    //Devami gelecek....
+                }
+
+            }
+
+
+        }
 
     }
 }
