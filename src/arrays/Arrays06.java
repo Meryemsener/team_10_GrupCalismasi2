@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays6 {
+public class Arrays06 {
     //verilen bir tam syai dizisinin en buyuk ve en kucuk elemanlari arasindaki sayilarin
     //toplamini bulunuz
 

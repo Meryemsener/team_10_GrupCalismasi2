@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays9 {
+public class Arrays09 {
     /*
            bir sinifa ait notlar veriliyor(1-100°,dersin hocasi en yuksek notu alan
            ogrencinin notunu 100'e tamamliyor ve bu ogrenciye ekledigi puan kadar

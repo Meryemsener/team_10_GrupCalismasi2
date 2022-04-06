@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays8 {
+public class Arrays08 {
     /*
     Bir dersten ogrencilerin aldigi notlar,tamsayi dizisi olarak veriliyor
 

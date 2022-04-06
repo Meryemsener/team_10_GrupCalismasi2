@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays1 {
+public class Arrays01 {
     /*
         Bir sinifa ait ders notlari veriliyor
         Bu notlarin toplamini ve ortalamasini bulunuz

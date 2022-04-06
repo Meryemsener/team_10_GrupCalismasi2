@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays7 {
+public class Arrays07 {
      /*
         Bir siniftaki ogrencilerin boylari tam sayi olarak verilmistir, ayrica bu sinifin ogrencisi olan Ali'nin de
         boyu veriliyor,.Beden egitimi dersinde ogrenciler buyukten kucuge

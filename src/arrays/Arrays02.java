@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays2 {
+public class Arrays02 {
      /*
      bir sinifa ait ders notlari verilmis,basarili ogrencilerin not ortalamalarini bulunuz
      50 ve yukari not alan ogrenciler basarili sayilmaktadir

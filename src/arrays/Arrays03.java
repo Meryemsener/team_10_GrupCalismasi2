@@ -1,6 +1,6 @@
 package arrays;
 
-public class Arrays3 {
+public class Arrays03 {
     /*
             verilen bir metnin tum kelimelerinin ilk harflerin buyuk
              digerleri kucuk olacak sekilde duzenleyin
