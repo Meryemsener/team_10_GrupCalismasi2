@@ -16,6 +16,7 @@ public class Arrays09 {
 
         int arr[] = {70, 80, 90, 65, 75, 90, 69, 72, 87, 90, 75};
         System.out.println(Arrays.toString(arr));
+
         System.out.println(Arrays.toString(arr));
     }
 }
