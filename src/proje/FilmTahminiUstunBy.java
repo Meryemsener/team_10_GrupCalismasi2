@@ -21,8 +21,12 @@ public class FilmTahminiUstunBy {
       kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
      */
     // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
-
+     private static boolean devam=false;
     public static void main(String[] args) throws IOException {
+
+
+        while (true){
+        boolean devam=false;
 
         Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
 
@@ -64,18 +68,53 @@ public class FilmTahminiUstunBy {
                 if (kelime.charAt(i)==harf.charAt(0)){// burda kelimenin uyup uymadigini bakiyorum harf olarak
                     bulunan[i]= harf + " ";// dizi oldugu icin ayni zaman degiskendir
 
+                    anahtar =1;//true veya false dondurmesi icin anahtarimiz artik sifir degil bir
+                    dogru++;// dogruyu artirdim
 
-                    //Devami gelecek....
+                    if (dogru==kelime.length()){// artik dogru ise bildin programdan cik diye yaptim
+
+                        System.out.println("kelime \n" +kelime+ "*********************\n");
+                    }
                 }
 
             }
 
+           if (anahtar==1){
+               anahtar=0;
+               tahmin--;//tahmimizin dusmemesi icin
 
+           }
+            for (i = 0; 1<kelime.length(); i++) {
+                System.out.print(bulunan[i]);
+
+            }
+            System.out.println();
+        } if (dogru != kelime.length()){
+            System.out.println("Uzgunum.... dogru yanit"+kelime);
+
+        }
+
+        System.out.println("***********DEVAM ETMEK ISTERMISINIZ?    ('EVET')/' 'HAYIR' ");
+
+        String cevap= scan.nextLine();
+
+        if (cevap.equals("EVET")){
+            devam=true;
+
+        } else if (cevap=="HAYIR"){
+            System.out.println("Tekrar Bekleriz");
+            devam=false;
+
+            break;//programdan cikmak icin
+        }else {
+
+            System.out.println("Tanimsiz kelime giris yaptiniz!");
+            break;
         }
 
     }
 }
-
+}
 
 
 
