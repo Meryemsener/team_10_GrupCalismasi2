@@ -23,5 +23,6 @@ public class Arrays01 {
         System.out.println("sum = " + sum);
         System.out.println("averge = " + average);
 
+
     }
 }
