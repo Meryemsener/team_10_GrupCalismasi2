@@ -108,7 +108,7 @@ public class FilmTahminiUstunBy {
             break;//programdan cikmak icin
         }else {
 
-            System.out.println("Tanimsiz kelime giris yaptiniz!");
+            System.out.println("Tanimsiz kelime giris yaptiniz!");/////
             break;
         }
 
