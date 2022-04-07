@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-   public class FilmTahminiUstunBy {
+public class FilmTahminiUstunBy {
 
     /*
      TASK :
@@ -20,15 +20,9 @@ import java.util.Scanner;
       kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
       kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
      */
-<<<<<<< HEAD
-     //Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
+    // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
 
     public static void main(String[] args) throws IOException {
-=======
-       // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
-
-       public static void main(String[] args) throws IOException {
->>>>>>> ustun
 
         Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
 
@@ -71,10 +65,7 @@ import java.util.Scanner;
                     bulunan[i]= harf + " ";// dizi oldugu icin ayni zaman degiskendir
 
 
-<<<<<<< HEAD
-=======
                     //Devami gelecek....
->>>>>>> ustun
                 }
 
             }
@@ -83,7 +74,7 @@ import java.util.Scanner;
         }
 
     }
-   }
+}
 
 
 
