@@ -14,6 +14,14 @@ public class FilmTahminiUstunBy {
       kullanıcının sectiği film için tahmin hakkını  console yazdırınız.
       kullanıcının her tahmininde kalan hak sayısını console yazdırınız.
       kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
+<<<<<<< HEAD
+      kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız*/
+     //Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
+
+    public static void main(String[] args) throws IOException {
+
+       // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
+=======
       kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
      */
 
@@ -21,6 +29,7 @@ public class FilmTahminiUstunBy {
             "MEMENTO", "GORA", "ESKIYA", "FIGHTCLUB","KARAKOMIK","KILLBILL","AMELIE","XMEN","OLDBOY",
             "BATMAN","KELOGLAN","TOYSTORY","MUTLULUK","SEVEN"));
 
+<<<<<<< HEAD
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         while (true) {
@@ -66,6 +75,64 @@ public class FilmTahminiUstunBy {
                         }
                         haksayisi--;
                         arrfilm = secilenfilm.split("");
+=======
+        while (true){
+        boolean devam=false;
+>>>>>>> 618ce591a7bf5dba29b3efe4ff12c094958b822e
+
+        Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
+
+        System.out.print("*****FILM TAHMINI OYUNUNA HOSGELDINIZ******");
+
+        System.out.println("\nFilm tahimi icin bir harf yaziniz : ");
+
+        String kelime= scan.nextLine();// degisken isminde kelime ekledim scanner referansindan
+
+        //Dongu olusturam surekli dongumuz olmasi icin int deger atiyacam
+        int i, tahmin =0, anahtar=0, dogru=0;// int turunden tanim yaptim hespini bir satirda yaptim
+
+        //Dizi olusturacam String turunden
+        String bulunan[]=new String[kelime.length()];//kelime indexini bulmak icin parametre icine yazdim
+
+        System.out.println("Kelimeyi bulmak icin 5 yanlis hakkiniz var");//kullanicin kac hakkini oldugunu gosterdim
+
+        //googleden arastirdim BufferedReader klavye turunden bir degisken yani klavyden okunanlari icin
+        BufferedReader klavye =new BufferedReader(new InputStreamReader(System.in));//kutuphanedeki siniflar gibi dusundum
+
+
+        //For dongumu aciyorum asagida
+
+        for (i =0; i<kelime.length(); i++){// kelimenin uzunlugunu bulmak icin bide i++ artitani kullandim
+            bulunan [i]="_ ";// i sirasiyla artiracgi icin buda "_ " kelimemin uzunluguna kadar alt tire girecek
+
+        }
+
+        //Bir while olusturacam
+
+        while (tahmin<=5){ //tahmin sayisini bulmak icin
+
+            System.out.println("Bir harf giriniz (Kalan hakkiniz " + (5- tahmin)+ ") :");
+            tahmin++;
+            String harf= klavye.readLine();//yazilan harfleri daha kolay getirmek icin
+
+            for ( i= 0; i <kelime.length(); i++) {//olur veya olmaz dongusune soktum
+
+                if (kelime.charAt(i) == harf.charAt(0)) {// burda kelimenin uyup uymadigini bakiyorum harf olarak
+                    bulunan[i] = harf + " ";// dizi oldugu icin ayni zaman degiskendir
+
+                    anahtar =1;//true veya false dondurmesi icin anahtarimiz artik sifir degil bir
+                    dogru++;// dogruyu artirdim
+
+<<<<<<< HEAD
+                    //Devami gelecek....
+
+                }
+            }}}}
+=======
+                    if (dogru==kelime.length()){// artik dogru ise bildin programdan cik diye yaptim
+
+                        System.out.println("kelime \n" +kelime+ "*********************\n");
+>>>>>>> 69ce44142291269def6d06b54dc43f815024c661
                     }
                 }
             }
@@ -99,3 +166,4 @@ public class FilmTahminiUstunBy {
 
 
 
+>>>>>>> 618ce591a7bf5dba29b3efe4ff12c094958b822e

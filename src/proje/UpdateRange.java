@@ -25,4 +25,7 @@ public class UpdateRange {
     int 2 = 20
     sonuc  1,6,-1,-1,22,-1,30,-1  olmalı.
          */
+   public static void main(String[] args) {
+
+   }
 }
