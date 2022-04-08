@@ -37,13 +37,13 @@ public class  GetPopulation {
 
     public static void main(String[] args) {
 
-<<<<<<< HEAD
+
 
     }
 }
 
 
-=======
+
         Scanner scan=new Scanner(System.in);
         System.out.println("ulke adini giriniz");
         String str=scan.nextLine();
@@ -81,4 +81,3 @@ public class  GetPopulation {
 
 
 
->>>>>>> Ebru
