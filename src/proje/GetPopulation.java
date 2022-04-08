@@ -39,11 +39,6 @@ public class  GetPopulation {
 
 
 
-    }
-}
-
-
-
         Scanner scan=new Scanner(System.in);
         System.out.println("ulke adini giriniz");
         String str=scan.nextLine();
@@ -79,5 +74,6 @@ public class  GetPopulation {
     }
 }
 
-
+}
+}
 
