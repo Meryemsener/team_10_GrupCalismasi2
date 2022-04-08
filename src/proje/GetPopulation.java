@@ -37,8 +37,48 @@ public class  GetPopulation {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
 
     }
 }
 
 
+=======
+        Scanner scan=new Scanner(System.in);
+        System.out.println("ulke adini giriniz");
+        String str=scan.nextLine();
+
+        String[] countryNames = {"USA", "Mexico", "Canada"};
+        int[] countryPopulations = {100000, 120000, 130000};
+
+
+        int sonuc=populationOfCountry(countryNames,countryPopulations,str);
+        System.out.println(sonuc);
+
+
+    }
+
+    private static int populationOfCountry(String [] countryNames, int[] countryPopulations, String str) {
+
+
+        int population = 0;
+
+        for (int i = 0; i < countryNames.length; i++) {
+
+            if (str.equalsIgnoreCase(countryNames[i])) {
+
+                population = countryPopulations[i];
+                break;
+
+            } else {
+                population = -1;
+            }
+
+        }
+        return population;
+    }
+}
+
+
+
+>>>>>>> Ebru
