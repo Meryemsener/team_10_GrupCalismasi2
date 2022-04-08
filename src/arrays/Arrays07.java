@@ -9,5 +9,7 @@ public class Arrays07 {
         Alinin boyu 175
         output=Ali 5.siradadir
 
+        7. soru Cuma'ya ait.
+
          */
 }
