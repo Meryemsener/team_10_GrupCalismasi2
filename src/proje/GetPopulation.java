@@ -1,6 +1,11 @@
 package proje;
 
-public class GetPopulation {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class  GetPopulation {
      /*
         Method name is populationOfCountry
         This method will get 1 String array(countryNames) 1 int array (countryPopulations) and 1 String (str)
@@ -29,4 +34,11 @@ public class GetPopulation {
         return 120000 olmali
         NOT : eger str icin verilen ulke countryNames icinde yoksa return -1 olmali
      */
+
+    public static void main(String[] args) {
+
+
+    }
 }
+
+
