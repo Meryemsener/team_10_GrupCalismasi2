@@ -18,17 +18,12 @@ import java.util.Scanner;
       kullanıcının sectiği film için tahmin hakkını  console yazdırınız.
       kullanıcının her tahmininde kalan hak sayısını console yazdırınız.
       kullanıcının her tahmininde doğru ve yanlış tahmin  sayısını console yazdırınız.
-      kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız.
-     */
-<<<<<<< HEAD
+      kullanıcının kaybedip veya kazandığını ve tahmin etmesi gereken filmin ismini  console yazdırınız*/
      //Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
 
     public static void main(String[] args) throws IOException {
-=======
-       // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
 
-       public static void main(String[] args) throws IOException {
->>>>>>> ustun
+       // Tahmin Edilecek Fimler:==>,MUCIZE,UMUT,KARAKOMIK,NEFES,OTEKI,AYLA,ESKIYA,MUTLULUK,KELEBEKLER
 
         Scanner scan = new Scanner(System.in);//kullanicidan deger almak icin
 
@@ -67,28 +62,11 @@ import java.util.Scanner;
 
             for ( i= 0; i <kelime.length(); i++) {//olur veya olmaz dongusune soktum
 
-                if (kelime.charAt(i)==harf.charAt(0)){// burda kelimenin uyup uymadigini bakiyorum harf olarak
-                    bulunan[i]= harf + " ";// dizi oldugu icin ayni zaman degiskendir
+                if (kelime.charAt(i) == harf.charAt(0)) {// burda kelimenin uyup uymadigini bakiyorum harf olarak
+                    bulunan[i] = harf + " ";// dizi oldugu icin ayni zaman degiskendir
 
 
-<<<<<<< HEAD
-=======
                     //Devami gelecek....
->>>>>>> ustun
+
                 }
-
-            }
-
-
-        }
-
-    }
-   }
-
-
-
-
-
-
-
-
+            }}}}
