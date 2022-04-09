@@ -19,7 +19,27 @@ public class ThreeEvenOdd {
    intArray([2, 1, 2, 5]) sonuc   false olmalı
    intArray([2, 4, 2, 5]) sonuc   true olmalı
    */
+    public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Eleman sayisini giriniz");
+        int elemanSayisi=scan.nextInt();
+        int arr[]=new int[elemanSayisi];
+
+
+        int sayacCift=0;
+        int sayacTek=0;
+
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]%2==0){
+                sayacCift++;
+
+            }else
+                sayacTek++;
+        }
+        System.out.println("Cift sayi adedi : " + sayacCift );
+        System.out.println("Tek sayi adedi : " + sayacTek);
 
 
 }
