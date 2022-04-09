@@ -9,4 +9,9 @@ public class Array4 {
          ekleyeceğiz.
         Peki bunu Java’da nasıl oluşturacağız ?
          */
+
+    public static void main(String[] args) {
+
+    }
+
 }
