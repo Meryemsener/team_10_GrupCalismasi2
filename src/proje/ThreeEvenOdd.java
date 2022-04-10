@@ -30,26 +30,36 @@ public class ThreeEvenOdd {
 
         int arr[] = new int[elemanSayisi];
 
+        int sayacCift = 0;
+
+        int sayacTek = 0;
+
+        boolean ücTaneMi = true;
+
+        int elemanlar = 0;
+
         for (int i = 0; i < elemanSayisi; i++) {
             System.out.println(i + 1 + ". elemani giriniz");
-            int elemanlar = scan.nextInt();
+            elemanlar = scan.nextInt();
+            arr[i]=elemanlar;
         }
 
-        int sayacCift = 0;
-        int sayacTek = 0;
-        boolean ücTaneMi = true;
+
+
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
                 sayacCift++;
-            } else sayacTek++;
+            } else
+                sayacTek++;
         }
         System.out.println("Cift sayi adedi : " + sayacCift);
         System.out.println("Tek sayi adedi : " + sayacTek);
 
         if (sayacCift >= 3 || sayacTek >= 3) {
             System.out.println(ücTaneMi);
-        } else System.out.println(!ücTaneMi);
+        } else
+            System.out.println(!ücTaneMi);
 
 
     }
