@@ -1,5 +1,7 @@
 package proje;
 
+import java.util.Arrays;
+
 public class UpdateRange {
      /*
     Update a method uRange
@@ -26,6 +28,17 @@ public class UpdateRange {
     sonuc  1,6,-1,-1,22,-1,30,-1  olmalı.
          */
    public static void main(String[] args) {
+      int[] arr2 = {1, 6, 12, 15, 22, 18, 30, 16};
+      int sayi1 = 10, sayi2 = 20;
+      URange(arr2, sayi1, sayi2);
+   }
+   private static int[] URange(int[] arr2, int sayi1, int sayi2) {
+      System.out.println(Arrays.toString(arr2));
+      for (int i = arr2.length - 1; i >= 0; i--)
+         if (arr2[i] > 10 && arr2[i] < 20)
+            arr2[i] = -1;
+      System.out.println(Arrays.toString(arr2));
+      return arr2;
 
    }
 }
