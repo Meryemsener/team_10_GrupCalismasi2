@@ -1,10 +1,9 @@
 package yeniSorular;
 
-<<<<<<< HEAD
-=======
+
 import java.util.Scanner;
 
->>>>>>> aakiff
+
 public class Array2 {
     public static void main(String[] args) {
         /*
@@ -13,8 +12,7 @@ public class Array2 {
 
 
          */
-<<<<<<< HEAD
-=======
+
 
         int sayac = 0;
         int[] dizi = {10, 5, 7, 8, 45, 9, 10, 45, 78, 32};
@@ -33,6 +31,6 @@ public class Array2 {
         System.out.println("Dizide Tekrar Edilme Sayısı : " + sayac);
 
 
->>>>>>> aakiff
+
     }
 }

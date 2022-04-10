@@ -1,5 +1,8 @@
 package yeniSorular;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArrayForLoop {
     /*
         A ve B sinifina ait matematik notlari 2 ayri liste halinde verilmistir(Tam sayi olarak). Hangi sinif daha basarilidir?
@@ -18,4 +21,10 @@ public class ArrayForLoop {
 //Buyuk olani ekrana yazdir
 
          */
+
+    public static void main(String[] args) {
+
+        List<Integer> A=new ArrayList<>();
+
+    }
 }

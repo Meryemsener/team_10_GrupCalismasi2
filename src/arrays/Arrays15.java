@@ -1,5 +1,9 @@
 package arrays;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Arrays15 {
      /*
     N elemanli bir dizi veriliyor. Dizinin elemanlarini ekrana yazdirin
@@ -14,6 +18,10 @@ public class Arrays15 {
     76 19 00 00 00 00
 
 
-
      */
+
+
+
 }
+
+
