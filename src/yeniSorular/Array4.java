@@ -1,5 +1,7 @@
 package yeniSorular;
 
+import java.util.Scanner;
+
 public class Array4 {
     /*
         Bir alışveriş listesi hazırlıyoruz.
@@ -9,4 +11,11 @@ public class Array4 {
          ekleyeceğiz.
         Peki bunu Java’da nasıl oluşturacağız ?
          */
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Alisveris listeniz kac elemanli olacak?");
+
+    }
+
 }
