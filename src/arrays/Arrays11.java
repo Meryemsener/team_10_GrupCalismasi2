@@ -9,6 +9,7 @@ public class Arrays11 {
 
          */
 
+
     //Once Ali'den kac kisi uzun oldugunu bulmak lazim
     //Sonra Ali ile ayni boyda kac kisi var onu bulmam lazim
     //Ve son olarakta Ali'nin muhtemel siralari
@@ -39,6 +40,7 @@ public class Arrays11 {
         }
 
     }
+
 
 
 
