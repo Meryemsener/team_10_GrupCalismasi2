@@ -24,4 +24,5 @@ public class Arrays01 {
         System.out.println("averge = " + average);
 
     }
+
 }
