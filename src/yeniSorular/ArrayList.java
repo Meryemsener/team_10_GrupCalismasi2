@@ -1,6 +1,6 @@
 package yeniSorular;
 
-public class ArrayList {
+public class ArrayList<S> {
     public static void main(String[] args) {
         /*
         Yazılım ile ilgili bir eğitim verilecek.

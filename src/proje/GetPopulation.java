@@ -37,8 +37,6 @@ public class  GetPopulation {
 
     public static void main(String[] args) {
 
-
-
         Scanner scan=new Scanner(System.in);
         System.out.println("ulke adini giriniz");
         String str=scan.nextLine();
@@ -49,7 +47,6 @@ public class  GetPopulation {
 
         int sonuc=populationOfCountry(countryNames,countryPopulations,str);
         System.out.println(sonuc);
-
 
     }
 
@@ -71,6 +68,7 @@ public class  GetPopulation {
 
         }
         return population;
+
     }
 }
 

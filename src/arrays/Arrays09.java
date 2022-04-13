@@ -16,7 +16,21 @@ public class Arrays09 {
 
         int arr[] = {70, 80, 90, 65, 75, 90, 69, 72, 87, 90, 75};
         System.out.println(Arrays.toString(arr));
-
-        System.out.println(Arrays.toString(arr));
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        System.out.println("En yüksek not : " + max);
+        int eklenenPuan = 0;
+        if (max < 100) {
+            eklenenPuan = 100 - max;
+        }
+        System.out.println("Eklenen puan : " + eklenenPuan);
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] += eklenenPuan;
+        }
+        System.out.println("Puan eklenmis hali : " + Arrays.toString(arr));
     }
 }
