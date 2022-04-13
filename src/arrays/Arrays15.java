@@ -19,6 +19,26 @@ public class Arrays15 {
 
 
      */
+     public static void main(String[] args) {
+
+         int[] output=new int[]{10,32,23,17,40,20,86,65,76,19,10,32,23,17,40,20,86,65,76,19};
+         System.out.println(output.length);
+
+         int k=6;
+
+         for (int i=0; i <output.length; i++){
+
+             System.out.print(output[i]+ " ");
+
+             if((i+1)%k==0) System.out.println();
+         }
+
+         int kalan=k-output.length%k;
+
+         for(int i=0; i<kalan; i++){
+             System.out.print("OO ");
+         }
+     }
 
 
 
