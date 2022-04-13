@@ -14,6 +14,7 @@ public class Array2 {
          */
 
 
+
         int sayac = 0;
         int[] dizi = {10, 5, 7, 8, 45, 9, 10, 45, 78, 32};
 

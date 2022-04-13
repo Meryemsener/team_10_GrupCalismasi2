@@ -8,4 +8,23 @@ public class Arrays16 {
     input:scores dizisi
     output:rekor sayisi
      */
-}
+        public static void main (String[]args){
+
+
+            double[] scores = new double[]{10, 9.9, 11.5, 13, 9, 11, 8.9, 8.8};
+            int recores = 0;
+            for (int i = 0; i < scores.length; i++) {
+                boolean rekor = true;
+                for (int j = 0; j < i; j++) {
+                    if (scores[j] < scores[i]) {
+                        rekor = false;
+                        break;
+                    }
+                }
+                if (rekor) recores++;
+            }
+            System.out.println("recores = " + recores);
+        }
+
+    }
+
