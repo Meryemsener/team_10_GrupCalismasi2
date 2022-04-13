@@ -9,10 +9,7 @@ public class Arrays01 {
     public static void main(String[] args) {
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ustun
         int sayi[] = {30, 56, 56, 75, 95, 100, 30, 80, 50};
 
         int sum = 0;
@@ -27,10 +24,7 @@ public class Arrays01 {
         System.out.println("sum = " + sum);
         System.out.println("averge = " + average);
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ustun
     }
 
 }

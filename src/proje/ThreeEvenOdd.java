@@ -44,21 +44,21 @@ public class ThreeEvenOdd {
 
         for (int i = 0; i < elemanSayisi; i++) {
 
-<<<<<<< HEAD
+
             System.out.println(i+1+". elemani giriniz");
             elemanlar = scan.nextInt();
 
             System.out.println(i + 1 + ". elemani giriniz");
             elemanlar = scan.nextInt();
             arr[i]=elemanlar;
-=======
+
             System.out.println(i + 1 + ". elemani giriniz");
             elemanlar = scan.nextInt();
 
             System.out.println(i + 1 + ". elemani giriniz");
             elemanlar = scan.nextInt();
             arr[i] = elemanlar;
->>>>>>> aakiff
+
 
         }
 
@@ -77,13 +77,7 @@ public class ThreeEvenOdd {
             System.out.println(ücTaneMi);
 
         } else System.out.println(!ücTaneMi);
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> aakiff
 
 
     }
