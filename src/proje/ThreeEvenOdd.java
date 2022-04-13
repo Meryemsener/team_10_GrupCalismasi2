@@ -64,10 +64,13 @@ public class ThreeEvenOdd {
             System.out.println(ücTaneMi);
 
         } else System.out.println(!ücTaneMi);
+
+
+
+
+
+
     }
-
-
-
 
     }
 
