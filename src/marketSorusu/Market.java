@@ -1,7 +1,12 @@
-package proje;
+package marketSorusu;
 
-public class MarketSorusu_CengizBey {
-    /*/* Basarili Market alış-veriş programı.
+import static marketSorusu.Panel.panel;
+
+public class Market {
+
+
+    public static void main(String[] args) {
+         /*/* Basarili Market alış-veriş programı.
 		 *
 		 * 1. Adım: Ürünler ve fiyatları içeren listeleri oluşturunuz.
 		 * 			No 	   Ürün 		  Fiyat
@@ -23,7 +28,13 @@ public class MarketSorusu_CengizBey {
 		 * 5. Başka bir ürün alıp almak istemediğini sorunuz.
 		 * 6. Eğer devam etmek istiyorsa yeniden ürün seçme kısmına yönlendiriniz.
 		 * 7. Eğer bitirmek istiyorsa ödemeyi kontrol edip para ustu hesaplayarak  programı bitirinzi.
-		 */
+
+     */
 
 
+       panel();
+
+
+    }
 }
+
